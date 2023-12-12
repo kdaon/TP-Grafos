@@ -1,7 +1,7 @@
 /*
  * Algoritmo de coloração de vértices
  * Utilização de força bruta (função recursiva) 
- * @author Olivia Campos, Mathias Silva Sousa, Raynner Tamaguchi
+ * @author Olivia Campos, Mathias Silva Sousa, Raynner Taniguchi
  */
 
 import java.util.Arrays;
