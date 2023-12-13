@@ -11,3 +11,7 @@ O desafio em questão é determinar a coloração mínima necessária para essa 
 
 ## Complexidade do Problema
 O problema de determinar a coloração mínima necessária para redes com muitos vértices é complexo e ainda não possui uma solução polinomial eficiente, dessa forma se torna um problema NP-Difícil.  Uma vez que a quantidade de dispositivos aumenta, a complexidade do problema cresce exponencialmente. A coloração mínima requer a atribuição de cores distintas a cada dispositivo conectado diretamente a outro, o que se torna impraticável em tempo polinomial conforme a rede se expande.
+
+## Heurística
+Diante da complexidade do problema, optamos por empregar uma heurística para encontrar soluções próximas do ótimo em um tempo viável. A heurística escolhida foi a Heurística Gulosa para Coloração de Vértices.
+A heurística gulosa busca resolver o problema fazendo escolhas locais em cada passo, a fim de alcançar uma solução eficiente. Nesse contexto, essa heurística atribui cores aos vértices em ordem decrescente de grau. Essa abordagem visa reduzir o número de conflitos de cor e, consequentemente, encontrar uma coloração eficiente para a rede. Embora não garanta uma solução globalmente ótima, é uma alternativa eficaz para redes de grande porte.
