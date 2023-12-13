@@ -1,6 +1,6 @@
 /*
  *  Algoritmo de coloração de vértices
- *  utilizando Heurística Gulosa de coloração de vértices
+ *  utilizando Heurística Gulosa
  */
 import java.util.Arrays;
 import java.util.Scanner;
