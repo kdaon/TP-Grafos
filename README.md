@@ -16,7 +16,3 @@ O problema de determinar a coloração mínima necessária para redes com muitos
 Diante da complexidade do problema, optamos por empregar uma heurística para encontrar soluções próximas do ótimo em um tempo viável. A heurística escolhida foi a Heurística Gulosa para Coloração de Vértices.
 A heurística gulosa busca resolver o problema fazendo escolhas locais em cada passo, a fim de alcançar uma solução eficiente. Nesse contexto, essa heurística atribui cores aos vértices em ordem decrescente de grau. Essa abordagem visa reduzir o número de conflitos de cor e, consequentemente, encontrar uma coloração eficiente para a rede. Embora não garanta uma solução globalmente ótima, é uma alternativa eficaz para redes de grande porte.<br><br>
 
-## Participantes
-> Olivia Campos<br>
-> Raynner Taniguchi<br>
-> Mathias Silva Sousa<br>
